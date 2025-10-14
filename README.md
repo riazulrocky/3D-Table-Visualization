@@ -1,15 +1,26 @@
-# 🪑 3D Table with Matplotlib  
+# 🪑 3D TABLE WITH MATPLOTLIB
 
-A Python script that generates a simple **3D table model** using `matplotlib` and `numpy`.  
-The table is built from cuboids (legs + top) and placed in front of a wall background.  
+A Python script that generates a simple 3D table model using `matplotlib` and `numpy`.  
+The table is built from cuboids (legs + tabletop) and placed in front of a wall background.
 
-## ✨ Features  
-- Procedurally generated table (4 legs + tabletop)  
-- 3D rendering with adjustable camera view  
-- Customizable dimensions, colors, and transparency  
-- Exports high-resolution PNG (`table_with_stable_wall.png`)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 🚀 How to Run  
-1. Install dependencies:  
-   ```bash
-   pip install numpy matplotlib
+✨ FEATURES
+| Feature | Description |
+|---------|-------------|
+| 📐 Procedural Table | Generates 4 legs + tabletop automatically |
+| 🖥️ 3D Rendering | View the table from different camera angles |
+| 🎨 Customizable | Adjust dimensions, colors, and transparency |
+| 🖼️ Export | Save high-resolution PNG (`table_with_stable_wall.png`) |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧩 REQUIREMENTS
+- Python 3.x  
+- numpy  
+- matplotlib  
+
+Install dependencies using:
+
+```bash
+pip install numpy matplotlib
